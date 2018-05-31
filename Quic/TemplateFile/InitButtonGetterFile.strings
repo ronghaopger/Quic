@@ -1,0 +1,11 @@
+- (UIButton *)%@Button {
+    if (!_%@Button) {
+        _%@Button = [[UIButton alloc] init];
+        _%@Button.titleLabel.font = [UIFont systemFontOfSize:12];
+        [_%@Button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        _%@Button.layer.borderColor = [UIColor blackColor].CGColor;
+        _%@Button.layer.borderWidth = 0.5;
+        [_%@Button addTarget:self action:@selector(%@Action:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _%@Button;
+}
