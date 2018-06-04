@@ -17,6 +17,7 @@
                 <outlet property="buttonTextField" destination="Sbx-9Y-3ga" id="Xka-KZ-UMS"/>
                 <outlet property="imageTextField" destination="FS1-Zu-xcM" id="tZz-AA-KNK"/>
                 <outlet property="labelTextField" destination="pvB-ct-yHG" id="3ap-SL-PwN"/>
+                <outlet property="tableTextField" destination="JF1-kw-8hV" id="oUU-5O-GvN"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -692,7 +693,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oo4-E7-GCF">
-                        <rect key="frame" x="51" y="158" width="54" height="17"/>
+                        <rect key="frame" x="51" y="179" width="54" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="UILabel:" id="BId-Fm-mHr">
                             <font key="font" metaFont="system"/>
@@ -701,7 +702,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hm8-kd-kVG">
-                        <rect key="frame" x="43" y="116" width="62" height="17"/>
+                        <rect key="frame" x="43" y="139" width="62" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="UIButton:" id="I2A-7x-dE2">
                             <font key="font" metaFont="system"/>
@@ -710,7 +711,7 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="INE-hN-7AF">
-                        <rect key="frame" x="18" y="71" width="87" height="17"/>
+                        <rect key="frame" x="18" y="96" width="87" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="UIImageView:" id="Cg3-at-zio">
                             <font key="font" metaFont="system"/>
@@ -719,7 +720,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pvB-ct-yHG">
-                        <rect key="frame" x="128" y="156" width="307" height="22"/>
+                        <rect key="frame" x="128" y="177" width="307" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="多个名称以','间隔" drawsBackground="YES" id="D0q-2e-cd5">
                             <font key="font" metaFont="system"/>
@@ -728,7 +729,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sbx-9Y-3ga">
-                        <rect key="frame" x="128" y="113" width="307" height="22"/>
+                        <rect key="frame" x="128" y="137" width="307" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="多个名称以','间隔" drawsBackground="YES" id="Wrw-yo-8W7">
                             <font key="font" metaFont="system"/>
@@ -737,7 +738,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FS1-Zu-xcM">
-                        <rect key="frame" x="128" y="69" width="307" height="22"/>
+                        <rect key="frame" x="128" y="94" width="307" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="多个名称以','间隔" drawsBackground="YES" id="v06-yO-oIw">
                             <font key="font" metaFont="system"/>
@@ -746,16 +747,37 @@
                         </textFieldCell>
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wtM-dN-HYC">
-                        <rect key="frame" x="349" y="25" width="92" height="32"/>
+                        <rect key="frame" x="349" y="7" width="92" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="保存" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="s87-e1-sin">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
                         </buttonCell>
                         <connections>
                             <action selector="goAction:" target="Voe-Tx-rLC" id="YYL-Et-IAN"/>
                         </connections>
                     </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C7L-98-70s">
+                        <rect key="frame" x="23" y="56" width="82" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="UITableView:" id="7YT-L7-GEb">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JF1-kw-8hV">
+                        <rect key="frame" x="128" y="54" width="307" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="only one" drawsBackground="YES" id="2P5-84-F22">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <point key="canvasLocation" x="133" y="352"/>

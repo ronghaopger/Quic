@@ -20,7 +20,7 @@
     return YES;
 }
 
-+ (NSString *)templateFileName {
++ (NSString *)getterTemplateFileName {
     return @"InitButtonGetterFile.strings";
 }
 @end

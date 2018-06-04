@@ -15,6 +15,7 @@
 @property (weak) IBOutlet NSTextField *labelTextField;
 @property (weak) IBOutlet NSTextField *buttonTextField;
 @property (weak) IBOutlet NSTextField *imageTextField;
+@property (weak) IBOutlet NSTextField *tableTextField;
 
 - (IBAction)goAction:(id)sender;
 
@@ -36,6 +37,7 @@
     dictionary[@"UILabel"] = [_labelTextField stringValue];
     dictionary[@"UIButton"] = [_buttonTextField stringValue];
     dictionary[@"UIImageView"] = [_imageTextField stringValue];
+    dictionary[@"UITableView"] = [_tableTextField stringValue];
     [[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"QuickQDistributedNotification" object:bundleID userInfo:[dictionary copy]];
     exit(0);
 }

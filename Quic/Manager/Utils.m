@@ -57,6 +57,16 @@
     return -1;
 }
 
++ (NSInteger)locationDelegatePragmaMarkWithContext:(NSArray<NSString*>*)context {
+    NSInteger index = 0;
+    for (; index < context.count; index++) {
+        if ([context[index] containsString:@"#pragma mark - delegate"]) {
+            return index;
+        }
+    }
+    return -1;
+}
+
 + (NSString*)searchClassNameWithLine:(NSString*)line {
     return [[line stringByReplacingOccurrencesOfString:@"@implementation " withString:@""] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }

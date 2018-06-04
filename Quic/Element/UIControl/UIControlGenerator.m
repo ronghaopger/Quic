@@ -12,7 +12,7 @@
 
 @implementation UIControlGenerator
 + (void)generateWithContext:(NSMutableArray<NSString*>*)context {
-    if (![self controlClassName].length || ![self templateFileName].length) {
+    if (![self controlClassName].length || ![self getterTemplateFileName].length) {
         return;
     }
     //parse settings
@@ -39,11 +39,11 @@
         NSArray<NSNumber*> *boundaryOfClassBody = [Utils locationClassBodyWithContext:[context copy]];
         NSInteger endLineOfClassBody = [boundaryOfClassBody[1] integerValue];
         //insert getter
-        NSMutableArray<NSString*> *contentArray = [[Utils readTemplateFileWithFileName:[self templateFileName]] mutableCopy];
-        for (NSInteger i = 0; i < contentArray.count; i++) {
-            contentArray[i] = [contentArray[i] stringByReplacingOccurrencesOfString:@"%@" withString:controlName];
+        NSMutableArray<NSString*> *getterContentArray = [[Utils readTemplateFileWithFileName:[self getterTemplateFileName]] mutableCopy];
+        for (NSInteger i = 0; i < getterContentArray.count; i++) {
+            getterContentArray[i] = [getterContentArray[i] stringByReplacingOccurrencesOfString:@"%@" withString:controlName];
         }
-        [context insertObjects:[contentArray copy] atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(endLineOfClassBody - 1, contentArray.count)]];
+        [context insertObjects:[getterContentArray copy] atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(endLineOfClassBody - 1, getterContentArray.count)]];
     }
 }
 
@@ -56,7 +56,11 @@
     return NO;
 }
 
-+ (NSString*)templateFileName {
++ (NSString*)getterTemplateFileName {
+    return nil;
+}
+
++ (NSString*)delegateTemplateFileName {
     return nil;
 }
 @end

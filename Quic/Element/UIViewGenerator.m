@@ -12,6 +12,7 @@
 #import "UILabelGenerator.h"
 #import "UIButtonGenerator.h"
 #import "UIImageViewGenerator.h"
+#import "UITableViewGenerator.h"
 
 @implementation UIViewGenerator
 + (void)generateWithContext:(NSMutableArray<NSString*>*)context {
@@ -43,5 +44,6 @@
     [UILabelGenerator generateWithContext:context];
     [UIButtonGenerator generateWithContext:context];
     [UIImageViewGenerator generateWithContext:context];
+    [UITableViewGenerator generateWithContext:context];
 }
 @end

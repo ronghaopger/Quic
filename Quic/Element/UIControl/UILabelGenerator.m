@@ -16,7 +16,7 @@
     return @"UILabel";
 }
 
-+ (NSString *)templateFileName {
++ (NSString *)getterTemplateFileName {
     return @"InitLabelGetterFile.strings";
 }
 @end

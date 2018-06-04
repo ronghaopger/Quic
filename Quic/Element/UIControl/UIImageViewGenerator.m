@@ -16,7 +16,7 @@
     return @"UIImageView";
 }
 
-+ (NSString *)templateFileName {
++ (NSString *)getterTemplateFileName {
     return @"InitImageViewGetterFile.strings";
 }
 @end

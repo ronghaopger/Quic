@@ -8,6 +8,10 @@
 
 #import "UIViewControllerGenerator.h"
 #import "Utils.h"
+#import "UILabelGenerator.h"
+#import "UIButtonGenerator.h"
+#import "UIImageViewGenerator.h"
+#import "UITableViewGenerator.h"
 
 @implementation UIViewControllerGenerator
 + (void)generateWithContext:(NSMutableArray<NSString*>*)context {
@@ -23,5 +27,17 @@
     [context addObject:[NSString stringWithFormat:@"@implementation %@", className]];
     [context addObjectsFromArray:[Utils readTemplateFileWithFileName:@"InitViewControllerFile.strings"]];
     [context addObject:@"@end"];
+}
+
++ (void)generateAdvancedWithContext:(NSMutableArray<NSString*>*)context {
+    NSArray<NSNumber*> *boundaryOfClassExtension = [Utils locationClassExtensionWithContext:[context copy]];
+    if (!boundaryOfClassExtension.count || boundaryOfClassExtension[0].integerValue < 0) {
+        return;
+    }
+    //insert control
+    [UILabelGenerator generateWithContext:context];
+    [UIButtonGenerator generateWithContext:context];
+    [UIImageViewGenerator generateWithContext:context];
+    [UITableViewGenerator generateWithContext:context];
 }
 @end

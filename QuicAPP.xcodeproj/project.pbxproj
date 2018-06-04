@@ -24,6 +24,9 @@
 		0A1DA90920BEC7C500E351B2 /* QuickDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA90720BEC7C400E351B2 /* QuickDataManager.m */; };
 		0A1DA91520BEC7CE00E351B2 /* UIViewControllerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA90E20BEC7CE00E351B2 /* UIViewControllerGenerator.m */; };
 		0A1DA91820BEC7CE00E351B2 /* UIViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA91320BEC7CE00E351B2 /* UIViewGenerator.m */; };
+		0A72AD9B20C4EACD003183F2 /* UITableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A72AD9A20C4EACD003183F2 /* UITableViewGenerator.m */; };
+		0A72AD9D20C4EC8B003183F2 /* InitTableViewGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile.strings */; };
+		0A72AD9F20C4ED42003183F2 /* InitTableViewDelegateFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile.strings */; };
 		0AA03C0220BF97D100B63DEA /* UIControlGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0120BF97D100B63DEA /* UIControlGenerator.m */; };
 		0AA03C0920BF97F200B63DEA /* UIImageViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0520BF97F200B63DEA /* UIImageViewGenerator.m */; };
 		0AA03C0A20BF97F200B63DEA /* UILabelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0720BF97F200B63DEA /* UILabelGenerator.m */; };
@@ -84,6 +87,10 @@
 		0A1DA91120BEC7CE00E351B2 /* UIViewControllerGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerGenerator.h; sourceTree = "<group>"; };
 		0A1DA91220BEC7CE00E351B2 /* UIViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewGenerator.h; sourceTree = "<group>"; };
 		0A1DA91320BEC7CE00E351B2 /* UIViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewGenerator.m; sourceTree = "<group>"; };
+		0A72AD9920C4EACC003183F2 /* UITableViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewGenerator.h; sourceTree = "<group>"; };
+		0A72AD9A20C4EACD003183F2 /* UITableViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewGenerator.m; sourceTree = "<group>"; };
+		0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InitTableViewGetterFile.strings; sourceTree = "<group>"; };
+		0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InitTableViewDelegateFile.strings; sourceTree = "<group>"; };
 		0AA03C0020BF97D100B63DEA /* UIControlGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIControlGenerator.h; sourceTree = "<group>"; };
 		0AA03C0120BF97D100B63DEA /* UIControlGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlGenerator.m; sourceTree = "<group>"; };
 		0AA03C0320BF97F200B63DEA /* UIButtonGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonGenerator.h; sourceTree = "<group>"; };
@@ -201,6 +208,8 @@
 				0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile.strings */,
 				0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile.strings */,
 				0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile.strings */,
+				0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile.strings */,
+				0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile.strings */,
 			);
 			path = TemplateFile;
 			sourceTree = "<group>";
@@ -216,6 +225,8 @@
 				0AA03C0820BF97F200B63DEA /* UIButtonGenerator.m */,
 				0AA03C0420BF97F200B63DEA /* UIImageViewGenerator.h */,
 				0AA03C0520BF97F200B63DEA /* UIImageViewGenerator.m */,
+				0A72AD9920C4EACC003183F2 /* UITableViewGenerator.h */,
+				0A72AD9A20C4EACD003183F2 /* UITableViewGenerator.m */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
@@ -314,9 +325,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A72AD9F20C4ED42003183F2 /* InitTableViewDelegateFile.strings in Resources */,
 				0A1DA90320BEC7BD00E351B2 /* InitImageViewGetterFile.strings in Resources */,
 				0A1DA90020BEC7BD00E351B2 /* InitLabelGetterFile.strings in Resources */,
 				0A1DA8FF20BEC7BD00E351B2 /* InitViewFile.strings in Resources */,
+				0A72AD9D20C4EC8B003183F2 /* InitTableViewGetterFile.strings in Resources */,
 				0A1DA90120BEC7BD00E351B2 /* InitViewControllerFile.strings in Resources */,
 				0A1DA90220BEC7BD00E351B2 /* InitButtonGetterFile.strings in Resources */,
 			);
@@ -348,6 +361,7 @@
 				0A1DA91520BEC7CE00E351B2 /* UIViewControllerGenerator.m in Sources */,
 				0A1DA90920BEC7C500E351B2 /* QuickDataManager.m in Sources */,
 				0AA03C0A20BF97F200B63DEA /* UILabelGenerator.m in Sources */,
+				0A72AD9B20C4EACD003183F2 /* UITableViewGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

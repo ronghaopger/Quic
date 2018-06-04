@@ -10,4 +10,5 @@
 
 @interface UIViewControllerGenerator : NSObject
 + (void)generateWithContext:(NSMutableArray<NSString*>*)context;
++ (void)generateAdvancedWithContext:(NSMutableArray<NSString*>*)context;
 @end

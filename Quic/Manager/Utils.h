@@ -22,6 +22,10 @@
  */
 + (NSInteger)locationActionPragmaMarkWithContext:(NSArray<NSString*>*)context;
 /*
+ * 定位 #pragma mark - delegate
+ */
++ (NSInteger)locationDelegatePragmaMarkWithContext:(NSArray<NSString*>*)context;
+/*
  * 查找类名
  */
 + (NSString*)searchClassNameWithLine:(NSString*)line;

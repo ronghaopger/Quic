@@ -22,7 +22,11 @@
  */
 + (BOOL)needActionForControl;
 /*
- * 模板文件名
+ * gettter模板文件名
  */
-+ (NSString*)templateFileName;
++ (NSString*)getterTemplateFileName;
+/*
+ * delegate模板文件名
+ */
++ (NSString*)delegateTemplateFileName;
 @end
