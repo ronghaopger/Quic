@@ -31,6 +31,7 @@
 		0AA03C0920BF97F200B63DEA /* UIImageViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0520BF97F200B63DEA /* UIImageViewGenerator.m */; };
 		0AA03C0A20BF97F200B63DEA /* UILabelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0720BF97F200B63DEA /* UILabelGenerator.m */; };
 		0AA03C0B20BF97F200B63DEA /* UIButtonGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0820BF97F200B63DEA /* UIButtonGenerator.m */; };
+		0AA8226E20CE23FC00BB2C7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8226D20CE23FC00BB2C7D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		0AA03C0620BF97F200B63DEA /* UILabelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelGenerator.h; sourceTree = "<group>"; };
 		0AA03C0720BF97F200B63DEA /* UILabelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelGenerator.m; sourceTree = "<group>"; };
 		0AA03C0820BF97F200B63DEA /* UIButtonGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonGenerator.m; sourceTree = "<group>"; };
+		0AA8226D20CE23FC00BB2C7D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		0A1DA8C220BEC67000E351B2 = {
 			isa = PBXGroup;
 			children = (
+				0AA8226D20CE23FC00BB2C7D /* README.md */,
 				0A1DA8CD20BEC67000E351B2 /* QuicAPP */,
 				0A1DA8E720BEC6AC00E351B2 /* Quic */,
 				0A1DA8E420BEC6AC00E351B2 /* Frameworks */,
@@ -316,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA8226E20CE23FC00BB2C7D /* README.md in Resources */,
 				0A1DA8D220BEC67100E351B2 /* Assets.xcassets in Resources */,
 				0A1DA8D520BEC67100E351B2 /* MainMenu.xib in Resources */,
 			);
