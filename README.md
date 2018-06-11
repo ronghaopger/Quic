@@ -3,6 +3,8 @@ A Xcode Source Editor Extension For quickly initializing a UIView or UIViewContr
 
 ## 演示
 
+绑定Xcode快捷键效率更高哦..
+
 For UIView:
 
 ![](/Resource/initView.gif)
@@ -15,8 +17,6 @@ For UIViewController:
 ## 安装
 
 下载project后运行，把生成的`Products/`下的QuicAAP.app拖到`应用程序`目录下。
-
-绑定Xcode快捷键效率更高哦..
 
 ## TODO
 
