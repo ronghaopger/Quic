@@ -11,17 +11,20 @@
 #import "Utils.h"
 
 @implementation UIControlGenerator
-+ (void)generateWithContext:(NSMutableArray<NSString*>*)context {
++ (BOOL)generateWithContext:(NSMutableArray<NSString*>*)context {
     if (![self controlClassName].length || ![self getterTemplateFileName].length) {
-        return;
+        return NO;
     }
     //parse settings
     NSDictionary<NSString*,NSString*> *contentDictionary = [QuickDataManager sharedManger].contentDictionary;
     NSArray<NSString*> *controlArray = [contentDictionary[[self controlClassName]] componentsSeparatedByString:@","];
-    if (!controlArray.count) {
-        return;
+    if (!controlArray.count || (controlArray.count == 1 && !controlArray[0].length)) {
+        return NO;
     }
     for (NSString *controlName in controlArray) {
+        if (!controlName.length) {
+            continue;
+        }
         //location class extension
         NSArray<NSNumber*> *boundaryOfClassExtension = [Utils locationClassExtensionWithContext:[context copy]];
         NSInteger endLineOfClassExtension = [boundaryOfClassExtension[1] integerValue];
@@ -45,6 +48,7 @@
         }
         [context insertObjects:[getterContentArray copy] atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(endLineOfClassBody - 1, getterContentArray.count)]];
     }
+    return YES;
 }
 
 #pragma mark - protected method

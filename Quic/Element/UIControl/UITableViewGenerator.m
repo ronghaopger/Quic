@@ -11,9 +11,11 @@
 
 @implementation UITableViewGenerator
 #pragma mark - protected method
-+ (void)generateWithContext:(NSMutableArray<NSString *> *)context {
-    [super generateWithContext:context];
-    
++ (BOOL)generateWithContext:(NSMutableArray<NSString *> *)context {
+    BOOL canRun = [super generateWithContext:context];
+    if (!canRun) {
+        return NO;
+    }
     //location class extension
     NSArray<NSNumber*> *boundaryOfClassExtension = [Utils locationClassExtensionWithContext:[context copy]];
     NSInteger startLineOfClassExtension = [boundaryOfClassExtension[0] integerValue];
@@ -23,6 +25,7 @@
     //insert delegate
     NSMutableArray<NSString*> *delegateContentArray = [[Utils readTemplateFileWithFileName:[self delegateTemplateFileName]] mutableCopy];
     [context insertObjects:[delegateContentArray copy] atIndexes:[NSIndexSet indexSetWithIndexesInRange:NSMakeRange(delegateIndex + 1, delegateContentArray.count)]];
+    return YES;
 }
 
 + (NSString *)controlClassName {

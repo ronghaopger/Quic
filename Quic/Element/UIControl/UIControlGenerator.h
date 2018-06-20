@@ -10,7 +10,7 @@
 
 @interface UIControlGenerator : NSObject
 #pragma mark - public method
-+ (void)generateWithContext:(NSMutableArray<NSString*>*)context;
++ (BOOL)generateWithContext:(NSMutableArray<NSString*>*)context;
 
 #pragma mark - protected method
 /*
