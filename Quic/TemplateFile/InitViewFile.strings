@@ -7,8 +7,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self _initView];
-        [self _initData];
+        [self initView];
     }
     return self;
 }
@@ -20,11 +19,7 @@
 #pragma mark - public method
 
 #pragma mark - private method
-- (void)_initView {
-    
-}
-
-- (void)_initData {
+- (void)initView {
     
 }
 

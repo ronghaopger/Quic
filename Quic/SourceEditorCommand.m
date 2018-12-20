@@ -10,6 +10,7 @@
 #import <AppKit/NSWorkspace.h>
 #import "QuickDataManager.h"
 //Element
+#import "NSObjectGenerator.h"
 #import "UIViewGenerator.h"
 #import "UIViewControllerGenerator.h"
 
@@ -18,7 +19,10 @@
 - (void)performCommandWithInvocation:(XCSourceEditorCommandInvocation *)invocation completionHandler:(void (^)(NSError * _Nullable nilOrError))completionHandler
 {
     NSMutableArray<NSString*> *context = invocation.buffer.lines;
-    if ([invocation.commandIdentifier isEqualToString:@"hulk.Quic.configAdvanced"]) {
+    if ([invocation.commandIdentifier isEqualToString:@"hulk.Quic.initObject"]) {
+        [NSObjectGenerator generateWithContext:context];
+    }
+    else if ([invocation.commandIdentifier isEqualToString:@"hulk.Quic.configAdvanced"]) {
         [[NSWorkspace sharedWorkspace] openURL:[NSURL fileURLWithPath:@"/Applications/QuicAPP.app"]];
     }
     else if ([invocation.commandIdentifier isEqualToString:@"hulk.Quic.initView"]) {

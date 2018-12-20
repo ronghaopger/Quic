@@ -32,6 +32,14 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
+					<string>hulk.Quic.initObject</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Init-Object</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>SourceEditorCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
 					<string>hulk.Quic.configAdvanced</string>
 					<key>XCSourceEditorCommandName</key>
 					<string>Config-Control</string>
