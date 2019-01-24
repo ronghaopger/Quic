@@ -12,6 +12,7 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSTextField *viewTextField;
 @property (weak) IBOutlet NSTextField *labelTextField;
 @property (weak) IBOutlet NSTextField *buttonTextField;
 @property (weak) IBOutlet NSTextField *imageTextField;
@@ -34,6 +35,7 @@
 - (IBAction)goAction:(id)sender {
     NSString *bundleID = [[NSBundle mainBundle] bundleIdentifier];
     NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
+    dictionary[@"UIView"] = [_viewTextField stringValue];
     dictionary[@"UILabel"] = [_labelTextField stringValue];
     dictionary[@"UIButton"] = [_buttonTextField stringValue];
     dictionary[@"UIImageView"] = [_imageTextField stringValue];
