@@ -9,6 +9,7 @@
 #import "UIViewGenerator.h"
 #import "Utils.h"
 #import "QuickDataManager.h"
+#import "OthersGenerator.h"
 #import "UIViewPropertyGenerator.h"
 #import "UILabelGenerator.h"
 #import "UIButtonGenerator.h"
@@ -42,6 +43,7 @@
         return;
     }
     //insert control
+    [OthersGenerator generateWithContext:context];
     [UILabelGenerator generateWithContext:context];
     [UIViewPropertyGenerator generateWithContext:context];
     [UIButtonGenerator generateWithContext:context];

@@ -29,7 +29,7 @@
         NSArray<NSNumber*> *boundaryOfClassExtension = [Utils locationClassExtensionWithContext:[context copy]];
         NSInteger endLineOfClassExtension = [boundaryOfClassExtension[1] integerValue];
         //insert property
-        NSString *propertyText = [NSString stringWithFormat:@"@property (nonatomic, strong) %@ *%@%@;", [self controlClassName], controlName, [[self controlClassName] stringByReplacingOccurrencesOfString:@"UI" withString:@""]];
+        NSString *propertyText = [NSString stringWithFormat:@"@property (nonatomic, strong) %@ *%@%@;", [self controlClassName], controlName, [self needNameSuffix] ? [[self controlClassName] stringByReplacingOccurrencesOfString:@"UI" withString:@""] : @""];
         [context insertObject:propertyText atIndex:endLineOfClassExtension - 1];
         if ([self needActionForControl]) {
             //location action
@@ -58,6 +58,10 @@
 
 + (BOOL)needActionForControl {
     return NO;
+}
+
++ (BOOL)needNameSuffix {
+    return YES;
 }
 
 + (NSString*)getterTemplateFileName {

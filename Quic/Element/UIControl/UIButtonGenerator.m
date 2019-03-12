@@ -7,8 +7,6 @@
 //
 
 #import "UIButtonGenerator.h"
-#import "QuickDataManager.h"
-#import "Utils.h"
 
 @implementation UIButtonGenerator
 #pragma mark - protected method

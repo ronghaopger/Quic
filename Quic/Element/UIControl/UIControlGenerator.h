@@ -22,6 +22,10 @@
  */
 + (BOOL)needActionForControl;
 /*
+ * 是否需要名称后缀
+ */
++ (BOOL)needNameSuffix;
+/*
  * gettter模板文件名
  */
 + (NSString*)getterTemplateFileName;

@@ -7,8 +7,6 @@
 //
 
 #import "UILabelGenerator.h"
-#import "QuickDataManager.h"
-#import "Utils.h"
 
 @implementation UILabelGenerator
 #pragma mark - protected method

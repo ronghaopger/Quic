@@ -7,8 +7,6 @@
 //
 
 #import "UIImageViewGenerator.h"
-#import "QuickDataManager.h"
-#import "Utils.h"
 
 @implementation UIImageViewGenerator
 #pragma mark - protected method
