@@ -1,0 +1,42 @@
+#pragma mark - life cycle
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self initView];
+    [self initData];
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+}
+
+#pragma mark - action
+
+#pragma mark - delegate
+
+#pragma mark - public method
+
+#pragma mark - private method
+- (void)initView {
+    
+}
+
+- (void)initData {
+    
+}
+
+#pragma mark - setters
+
+#pragma mark - getters

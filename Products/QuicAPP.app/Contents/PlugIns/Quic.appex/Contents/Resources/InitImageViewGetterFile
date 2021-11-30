@@ -1,0 +1,7 @@
+- (UIImageView *)%@ImageView {
+    if (!_%@ImageView) {
+        _%@ImageView = [[UIImageView alloc] init];
+        [_%@ImageView setImage:[UIImage imageNamed:@""]];
+    }
+    return _%@ImageView;
+}

@@ -26,7 +26,7 @@
     [context insertObject:[NSString stringWithFormat:@"@interface %@()", className] atIndex:startLine];
     //insert new class body
     [context addObject:[NSString stringWithFormat:@"@implementation %@", className]];
-    [context addObjectsFromArray:[Utils readTemplateFileWithFileName:@"InitObjectFile.strings"]];
+    [context addObjectsFromArray:[Utils readTemplateFileWithFileName:@"InitObjectFile"]];
     [context addObject:@"@end"];
 }
 @end

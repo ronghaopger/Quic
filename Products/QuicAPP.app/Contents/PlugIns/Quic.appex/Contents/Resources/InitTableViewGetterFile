@@ -1,0 +1,8 @@
+- (UITableView *)%@TableView {
+    if (!_%@TableView) {
+        _%@TableView = [[UITableView alloc] init];
+        _%@TableView.delegate = self;
+        _%@TableView.dataSource = self;
+    }
+    return _%@TableView;
+}

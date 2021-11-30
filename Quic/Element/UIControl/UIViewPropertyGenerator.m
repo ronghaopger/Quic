@@ -15,6 +15,6 @@
 }
 
 + (NSString *)getterTemplateFileName {
-    return @"InitViewGetterFile.strings";
+    return @"InitViewGetterFile";
 }
 @end

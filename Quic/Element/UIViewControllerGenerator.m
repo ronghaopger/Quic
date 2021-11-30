@@ -27,7 +27,7 @@
     [context removeObjectsInRange:NSMakeRange(startLine, endLine - startLine + 1)];
     //insert new class body
     [context addObject:[NSString stringWithFormat:@"@implementation %@", className]];
-    [context addObjectsFromArray:[Utils readTemplateFileWithFileName:@"InitViewControllerFile.strings"]];
+    [context addObjectsFromArray:[Utils readTemplateFileWithFileName:@"InitViewControllerFile"]];
     [context addObject:@"@end"];
 }
 

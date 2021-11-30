@@ -19,6 +19,6 @@
 }
 
 + (NSString *)getterTemplateFileName {
-    return @"InitButtonGetterFile.strings";
+    return @"InitButtonGetterFile";
 }
 @end

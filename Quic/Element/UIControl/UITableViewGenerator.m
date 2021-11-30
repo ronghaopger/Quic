@@ -33,11 +33,11 @@
 }
 
 + (NSString *)getterTemplateFileName {
-    return @"InitTableViewGetterFile.strings";
+    return @"InitTableViewGetterFile";
 }
 
 #pragma mark - private method
 + (NSString *)delegateTemplateFileName {
-    return @"InitTableViewDelegateFile.strings";
+    return @"InitTableViewDelegateFile";
 }
 @end

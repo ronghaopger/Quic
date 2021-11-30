@@ -1,0 +1,6 @@
+- (<#Class#> *)%@ {
+    if (!_%@) {
+        _%@ = [[<#Class#> alloc] init];
+    }
+    return _%@;
+}

@@ -1,0 +1,28 @@
+#pragma mark - life cycle
+- (instancetype)init {
+    self = [self initWithFrame:CGRectZero];
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initView];
+    }
+    return self;
+}
+
+#pragma mark - action
+
+#pragma mark - delegate
+
+#pragma mark - public method
+
+#pragma mark - private method
+- (void)initView {
+    
+}
+
+#pragma mark - setters
+
+#pragma mark - getters

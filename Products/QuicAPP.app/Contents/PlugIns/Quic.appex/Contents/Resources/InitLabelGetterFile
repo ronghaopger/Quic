@@ -1,0 +1,8 @@
+- (UILabel *)%@Label {
+    if (!_%@Label) {
+        _%@Label = [[UILabel alloc] init];
+        _%@Label.font = [UIFont systemFontOfSize:12];
+        _%@Label.textColor = [UIColor blackColor];
+    }
+    return _%@Label;
+}

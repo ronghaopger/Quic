@@ -15,29 +15,31 @@
 		0A1DA8EA20BEC6AD00E351B2 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA8E920BEC6AD00E351B2 /* SourceEditorExtension.m */; };
 		0A1DA8ED20BEC6AD00E351B2 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA8EC20BEC6AD00E351B2 /* SourceEditorCommand.m */; };
 		0A1DA8F220BEC6AD00E351B2 /* Quic.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A1DA8E320BEC6AC00E351B2 /* Quic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		0A1DA8FF20BEC7BD00E351B2 /* InitViewFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FA20BEC7BC00E351B2 /* InitViewFile.strings */; };
-		0A1DA90020BEC7BD00E351B2 /* InitLabelGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile.strings */; };
-		0A1DA90120BEC7BD00E351B2 /* InitViewControllerFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FC20BEC7BC00E351B2 /* InitViewControllerFile.strings */; };
-		0A1DA90220BEC7BD00E351B2 /* InitButtonGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile.strings */; };
-		0A1DA90320BEC7BD00E351B2 /* InitImageViewGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile.strings */; };
+		0A1DA8FF20BEC7BD00E351B2 /* InitViewFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FA20BEC7BC00E351B2 /* InitViewFile */; };
+		0A1DA90020BEC7BD00E351B2 /* InitLabelGetterFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile */; };
+		0A1DA90120BEC7BD00E351B2 /* InitViewControllerFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FC20BEC7BC00E351B2 /* InitViewControllerFile */; };
+		0A1DA90220BEC7BD00E351B2 /* InitButtonGetterFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile */; };
+		0A1DA90320BEC7BD00E351B2 /* InitImageViewGetterFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile */; };
 		0A1DA90820BEC7C500E351B2 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA90520BEC7C400E351B2 /* Utils.m */; };
 		0A1DA90920BEC7C500E351B2 /* QuickDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA90720BEC7C400E351B2 /* QuickDataManager.m */; };
 		0A1DA91520BEC7CE00E351B2 /* UIViewControllerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA90E20BEC7CE00E351B2 /* UIViewControllerGenerator.m */; };
 		0A1DA91820BEC7CE00E351B2 /* UIViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DA91320BEC7CE00E351B2 /* UIViewGenerator.m */; };
+		0A312F5627564D4E00D028CE /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A143EE82756313500E5EE2B /* XcodeKit.framework */; };
+		0A312F5727564D4E00D028CE /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A143EE82756313500E5EE2B /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A542E3321CB9693008FB303 /* NSObjectGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A542E3221CB9693008FB303 /* NSObjectGenerator.m */; };
-		0A542E3521CB9750008FB303 /* InitObjectFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A542E3421CB9750008FB303 /* InitObjectFile.strings */; };
+		0A542E3521CB9750008FB303 /* InitObjectFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A542E3421CB9750008FB303 /* InitObjectFile */; };
 		0A5550B021F9D84500FBEDDC /* UIViewPropertyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5550AF21F9D84500FBEDDC /* UIViewPropertyGenerator.m */; };
-		0A5550B221F9D8BB00FBEDDC /* InitViewGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A5550B121F9D8BB00FBEDDC /* InitViewGetterFile.strings */; };
+		0A5550B221F9D8BB00FBEDDC /* InitViewGetterFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A5550B121F9D8BB00FBEDDC /* InitViewGetterFile */; };
 		0A72AD9B20C4EACD003183F2 /* UITableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A72AD9A20C4EACD003183F2 /* UITableViewGenerator.m */; };
-		0A72AD9D20C4EC8B003183F2 /* InitTableViewGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile.strings */; };
-		0A72AD9F20C4ED42003183F2 /* InitTableViewDelegateFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile.strings */; };
+		0A72AD9D20C4EC8B003183F2 /* InitTableViewGetterFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile */; };
+		0A72AD9F20C4ED42003183F2 /* InitTableViewDelegateFile in Resources */ = {isa = PBXBuildFile; fileRef = 0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile */; };
 		0AA03C0220BF97D100B63DEA /* UIControlGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0120BF97D100B63DEA /* UIControlGenerator.m */; };
 		0AA03C0920BF97F200B63DEA /* UIImageViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0520BF97F200B63DEA /* UIImageViewGenerator.m */; };
 		0AA03C0A20BF97F200B63DEA /* UILabelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0720BF97F200B63DEA /* UILabelGenerator.m */; };
 		0AA03C0B20BF97F200B63DEA /* UIButtonGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA03C0820BF97F200B63DEA /* UIButtonGenerator.m */; };
 		0AA8226E20CE23FC00BB2C7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0AA8226D20CE23FC00BB2C7D /* README.md */; };
 		0AD870BF2237ADAB00C4B5B9 /* OthersGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD870BE2237ADAB00C4B5B9 /* OthersGenerator.m */; };
-		0AD870C12237AE6300C4B5B9 /* InitOthersGetterFile.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AD870C02237AE6300C4B5B9 /* InitOthersGetterFile.strings */; };
+		0AD870C12237AE6300C4B5B9 /* InitOthersGetterFile in Resources */ = {isa = PBXBuildFile; fileRef = 0AD870C02237AE6300C4B5B9 /* InitOthersGetterFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +64,21 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A312F5827564D4E00D028CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A312F5727564D4E00D028CE /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A143EE82756313500E5EE2B /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		0A1DA8CB20BEC67000E351B2 /* QuicAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuicAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A1DA8CE20BEC67000E351B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A1DA8CF20BEC67000E351B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,11 +95,11 @@
 		0A1DA8EC20BEC6AD00E351B2 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
 		0A1DA8EE20BEC6AD00E351B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A1DA8EF20BEC6AD00E351B2 /* Quic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quic.entitlements; sourceTree = "<group>"; };
-		0A1DA8FA20BEC7BC00E351B2 /* InitViewFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitViewFile.strings; sourceTree = "<group>"; };
-		0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitLabelGetterFile.strings; sourceTree = "<group>"; };
-		0A1DA8FC20BEC7BC00E351B2 /* InitViewControllerFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitViewControllerFile.strings; sourceTree = "<group>"; };
-		0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitButtonGetterFile.strings; sourceTree = "<group>"; };
-		0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitImageViewGetterFile.strings; sourceTree = "<group>"; };
+		0A1DA8FA20BEC7BC00E351B2 /* InitViewFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitViewFile; sourceTree = "<group>"; };
+		0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitLabelGetterFile; sourceTree = "<group>"; };
+		0A1DA8FC20BEC7BC00E351B2 /* InitViewControllerFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitViewControllerFile; sourceTree = "<group>"; };
+		0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitButtonGetterFile; sourceTree = "<group>"; };
+		0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitImageViewGetterFile; sourceTree = "<group>"; };
 		0A1DA90420BEC7C400E351B2 /* QuickDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDataManager.h; sourceTree = "<group>"; };
 		0A1DA90520BEC7C400E351B2 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		0A1DA90620BEC7C400E351B2 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
@@ -96,14 +110,14 @@
 		0A1DA91320BEC7CE00E351B2 /* UIViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewGenerator.m; sourceTree = "<group>"; };
 		0A542E3121CB9693008FB303 /* NSObjectGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObjectGenerator.h; sourceTree = "<group>"; };
 		0A542E3221CB9693008FB303 /* NSObjectGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectGenerator.m; sourceTree = "<group>"; };
-		0A542E3421CB9750008FB303 /* InitObjectFile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InitObjectFile.strings; sourceTree = "<group>"; };
+		0A542E3421CB9750008FB303 /* InitObjectFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = InitObjectFile; sourceTree = "<group>"; };
 		0A5550AE21F9D84500FBEDDC /* UIViewPropertyGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewPropertyGenerator.h; sourceTree = "<group>"; };
 		0A5550AF21F9D84500FBEDDC /* UIViewPropertyGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewPropertyGenerator.m; sourceTree = "<group>"; };
-		0A5550B121F9D8BB00FBEDDC /* InitViewGetterFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitViewGetterFile.strings; sourceTree = "<group>"; };
+		0A5550B121F9D8BB00FBEDDC /* InitViewGetterFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitViewGetterFile; sourceTree = "<group>"; };
 		0A72AD9920C4EACC003183F2 /* UITableViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableViewGenerator.h; sourceTree = "<group>"; };
 		0A72AD9A20C4EACD003183F2 /* UITableViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewGenerator.m; sourceTree = "<group>"; };
-		0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InitTableViewGetterFile.strings; sourceTree = "<group>"; };
-		0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InitTableViewDelegateFile.strings; sourceTree = "<group>"; };
+		0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = InitTableViewGetterFile; sourceTree = "<group>"; };
+		0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = InitTableViewDelegateFile; sourceTree = "<group>"; };
 		0AA03C0020BF97D100B63DEA /* UIControlGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIControlGenerator.h; sourceTree = "<group>"; };
 		0AA03C0120BF97D100B63DEA /* UIControlGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIControlGenerator.m; sourceTree = "<group>"; };
 		0AA03C0320BF97F200B63DEA /* UIButtonGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonGenerator.h; sourceTree = "<group>"; };
@@ -115,7 +129,7 @@
 		0AA8226D20CE23FC00BB2C7D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0AD870BD2237ADAB00C4B5B9 /* OthersGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OthersGenerator.h; sourceTree = "<group>"; };
 		0AD870BE2237ADAB00C4B5B9 /* OthersGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OthersGenerator.m; sourceTree = "<group>"; };
-		0AD870C02237AE6300C4B5B9 /* InitOthersGetterFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InitOthersGetterFile.strings; sourceTree = "<group>"; };
+		0AD870C02237AE6300C4B5B9 /* InitOthersGetterFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InitOthersGetterFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A1DA8E620BEC6AC00E351B2 /* Cocoa.framework in Frameworks */,
+				0A312F5627564D4E00D028CE /* XcodeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				0A1DA8E520BEC6AC00E351B2 /* Cocoa.framework */,
+				0A143EE82756313500E5EE2B /* XcodeKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,16 +239,16 @@
 		0A1DA8F920BEC78900E351B2 /* TemplateFile */ = {
 			isa = PBXGroup;
 			children = (
-				0AD870C02237AE6300C4B5B9 /* InitOthersGetterFile.strings */,
-				0A5550B121F9D8BB00FBEDDC /* InitViewGetterFile.strings */,
-				0A1DA8FA20BEC7BC00E351B2 /* InitViewFile.strings */,
-				0A1DA8FC20BEC7BC00E351B2 /* InitViewControllerFile.strings */,
-				0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile.strings */,
-				0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile.strings */,
-				0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile.strings */,
-				0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile.strings */,
-				0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile.strings */,
-				0A542E3421CB9750008FB303 /* InitObjectFile.strings */,
+				0AD870C02237AE6300C4B5B9 /* InitOthersGetterFile */,
+				0A5550B121F9D8BB00FBEDDC /* InitViewGetterFile */,
+				0A1DA8FA20BEC7BC00E351B2 /* InitViewFile */,
+				0A1DA8FC20BEC7BC00E351B2 /* InitViewControllerFile */,
+				0A1DA8FB20BEC7BC00E351B2 /* InitLabelGetterFile */,
+				0A1DA8FD20BEC7BC00E351B2 /* InitButtonGetterFile */,
+				0A1DA8FE20BEC7BD00E351B2 /* InitImageViewGetterFile */,
+				0A72AD9C20C4EC8B003183F2 /* InitTableViewGetterFile */,
+				0A72AD9E20C4ED42003183F2 /* InitTableViewDelegateFile */,
+				0A542E3421CB9750008FB303 /* InitObjectFile */,
 			);
 			path = TemplateFile;
 			sourceTree = "<group>";
@@ -287,6 +303,7 @@
 				0A1DA8DF20BEC6AC00E351B2 /* Sources */,
 				0A1DA8E020BEC6AC00E351B2 /* Frameworks */,
 				0A1DA8E120BEC6AC00E351B2 /* Resources */,
+				0A312F5827564D4E00D028CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -353,16 +370,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A72AD9F20C4ED42003183F2 /* InitTableViewDelegateFile.strings in Resources */,
-				0A542E3521CB9750008FB303 /* InitObjectFile.strings in Resources */,
-				0A5550B221F9D8BB00FBEDDC /* InitViewGetterFile.strings in Resources */,
-				0A1DA90320BEC7BD00E351B2 /* InitImageViewGetterFile.strings in Resources */,
-				0A1DA90020BEC7BD00E351B2 /* InitLabelGetterFile.strings in Resources */,
-				0A1DA8FF20BEC7BD00E351B2 /* InitViewFile.strings in Resources */,
-				0AD870C12237AE6300C4B5B9 /* InitOthersGetterFile.strings in Resources */,
-				0A72AD9D20C4EC8B003183F2 /* InitTableViewGetterFile.strings in Resources */,
-				0A1DA90120BEC7BD00E351B2 /* InitViewControllerFile.strings in Resources */,
-				0A1DA90220BEC7BD00E351B2 /* InitButtonGetterFile.strings in Resources */,
+				0A72AD9F20C4ED42003183F2 /* InitTableViewDelegateFile in Resources */,
+				0A542E3521CB9750008FB303 /* InitObjectFile in Resources */,
+				0A5550B221F9D8BB00FBEDDC /* InitViewGetterFile in Resources */,
+				0A1DA90320BEC7BD00E351B2 /* InitImageViewGetterFile in Resources */,
+				0A1DA90020BEC7BD00E351B2 /* InitLabelGetterFile in Resources */,
+				0A1DA8FF20BEC7BD00E351B2 /* InitViewFile in Resources */,
+				0AD870C12237AE6300C4B5B9 /* InitOthersGetterFile in Resources */,
+				0A72AD9D20C4EC8B003183F2 /* InitTableViewGetterFile in Resources */,
+				0A1DA90120BEC7BD00E351B2 /* InitViewControllerFile in Resources */,
+				0A1DA90220BEC7BD00E351B2 /* InitButtonGetterFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,16 +551,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = QuicAPP/Assets.xcassets;
 				DEVELOPMENT_TEAM = G4U876YSSZ;
 				INFOPLIST_FILE = QuicAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hulk.Quic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hulk.QuicAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -553,16 +571,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = QuicAPP/Assets.xcassets;
 				DEVELOPMENT_TEAM = G4U876YSSZ;
 				INFOPLIST_FILE = QuicAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hulk.Quic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hulk.QuicAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -572,7 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Quic/Quic.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G4U876YSSZ;
@@ -582,7 +601,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hulk.Quic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hulk.QuicAPP.Quic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -592,7 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Quic/Quic.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G4U876YSSZ;
@@ -602,7 +621,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hulk.Quic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hulk.QuicAPP.Quic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

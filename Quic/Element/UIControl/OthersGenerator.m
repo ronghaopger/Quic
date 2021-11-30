@@ -19,6 +19,6 @@
 }
 
 + (NSString *)getterTemplateFileName {
-    return @"InitOthersGetterFile.strings";
+    return @"InitOthersGetterFile";
 }
 @end

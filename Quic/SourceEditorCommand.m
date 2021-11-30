@@ -15,9 +15,7 @@
 #import "UIViewControllerGenerator.h"
 
 @implementation SourceEditorCommand
-
-- (void)performCommandWithInvocation:(XCSourceEditorCommandInvocation *)invocation completionHandler:(void (^)(NSError * _Nullable nilOrError))completionHandler
-{
+- (void)performCommandWithInvocation:(XCSourceEditorCommandInvocation *)invocation completionHandler:(void (^)(NSError * _Nullable))completionHandler {
     NSMutableArray<NSString*> *context = invocation.buffer.lines;
     if ([invocation.commandIdentifier isEqualToString:@"hulk.Quic.initObject"]) {
         [NSObjectGenerator generateWithContext:context];

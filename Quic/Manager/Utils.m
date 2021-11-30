@@ -75,7 +75,7 @@
     NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
     NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingAtPath:[bundlePath stringByAppendingString:[NSString stringWithFormat:@"/Contents/Resources/%@", fileName]]];
     NSData *fileData = [fileHandle readDataToEndOfFile];
-    NSString *fileContent = [[NSString alloc] initWithData:fileData encoding:NSUTF16StringEncoding];
+    NSString *fileContent = [[NSString alloc] initWithData:fileData encoding:NSUTF8StringEncoding];
     return [fileContent componentsSeparatedByCharactersInSet:[NSCharacterSet newlineCharacterSet]];
 }
 @end

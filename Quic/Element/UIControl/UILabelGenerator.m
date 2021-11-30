@@ -15,6 +15,6 @@
 }
 
 + (NSString *)getterTemplateFileName {
-    return @"InitLabelGetterFile.strings";
+    return @"InitLabelGetterFile";
 }
 @end

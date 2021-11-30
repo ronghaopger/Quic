@@ -1,0 +1,7 @@
+- (UIView *)%@View {
+    if (!_%@View) {
+        _%@View = [[UIView alloc] init];
+        _%@View.backgroundColor = [UIColor redColor];
+    }
+    return _%@View;
+}
